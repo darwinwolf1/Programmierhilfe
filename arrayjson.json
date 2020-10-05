@@ -1,0 +1,14 @@
+[["Einlesen eines Bildes, Bild muss in gleichem Ordner sein, wie das Programm: $image = imagecreatefromjpeg(beispiel.jpg); \n// Bild anzeigen: imagejpeg($image); \n// Zerstören des Bildes |imagedestroy($image);|"],
+["array mit/ohne Inhalt bilden: $Array = array(Inhalt mit Anführungszeichen und Kommas teilen) Aufteilung: array(0,1,2,3,4,usw)"],
+["Suchmaschine: strpos($filter, $arrray)"],
+["Einlesen: readline()"],
+["Ausgabe: print(Text)"],
+["Ausgabe von arrays: print_r($array)"],
+["Auagabe von Texten: print(Text)"],
+["arrray als Variabel: foreach($array as $asarray)"],
+["While Schlaufe: While($Variabel >= 5){     }"],
+["Inkrement/Dekrement: $Zahl = 1 $Zahl ++/$Zahl --"],
+[" Wenn: Grösser als aber kleiner als: if ($fragenzahl >= 10 &&/and $fragenzahl <= 15) {    }"],
+[""]
+
+]  
