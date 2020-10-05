@@ -1,0 +1,16 @@
+//HF
+<?php
+$beschreibungen = array();
+
+function read(){ //Funktioniert
+    global $beschreibungen;
+    $json = file_get_contents("beschreibungen.json");
+    $beschreibungen = json_decode($json, JSON_OBJECT_AS_ARRAY);
+}
+
+
+
+
+
+
+
