@@ -1,15 +1,38 @@
-//HF
 <?php
-$beschreibungen = array();
+$array = array();
+$filter = readline("Suchmaschiene: ");
 
 function read(){ //Funktioniert
-    global $beschreibungen;
-    $json = file_get_contents("beschreibungen.json");
+    global $array;
+    $json = file_get_contents("array.json");
     $beschreibungen = json_decode($json, JSON_OBJECT_AS_ARRAY);
 }
-While(True){
 
+While(true){
+    read();
+    global $array;
+    read();
+    foreach($array as $asarray){
+        if ($Position = strpos($asarray, $filter)) {
+            if("$Position = 0");
+            print("$asarray");
+
+        } 
+        else {
+            print("No Results found");
+            print("Download: Coding-help.json");
+        }
+        
+    }
 }
+
+//Kei ahnig wie das Funktioniert pls help
+<HTMl>
+<Body>
+
+
+
+</HTMl>
 
 
 
