@@ -8,7 +8,9 @@
 ["arrray als Variabel: foreach($array as $asarray)"],
 ["While Schlaufe: While($Variabel >= 5){     }"],
 ["Inkrement/Dekrement: $Zahl = 1 $Zahl ++/$Zahl --"],
-[" Wenn: Grösser als aber kleiner als: if ($fragenzahl >= 10 &&/and $fragenzahl <= 15) {    }"],
+["Wenn: Grösser als aber kleiner als: if ($fragenzahl >= 10 &&/and $fragenzahl <= 15) {    }"],
+["json_encode: macht dei .json Datei zu einem Arrray und somit wieder gut lesbar"],
+["json_decode: macht den Array zu einer .json Datei"],
 [""]
 
 ]  
