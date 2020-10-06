@@ -1,39 +1,32 @@
 <?php
-$array = array();
-$filter = readline("Suchmaschiene: ");
+
+
 
 function read(){ //Funktioniert
     global $array;
-    $json = file_get_contents("array.json");
-    $beschreibungen = json_decode($json, JSON_OBJECT_AS_ARRAY);
+    $json = file_get_contents("arrayjson.json");
+    $array = json_decode($json, JSON_OBJECT_AS_ARRAY);
 }
 
 While(true){
-    read();
     global $array;
     read();
+    $filter = readline("Suchmaschiene: ");
     foreach($array as $asarray){
-        if ($Position = strpos($asarray, $filter)) {
-            if("$Position = 0");
-            print("$asarray");
+        $Position = strpos("$asarray[0]", "$filter"); 
+        if($Position = 0){
+        print("$asarray[0]\n");
 
-        } 
-        else {
-            print("No Results found");
-            print("Download: Coding-help.json");
         }
+        //else {
+            //print("No Results found\n");
+            //print "Download the .json array/cheatsheet: <a href='http://www.google.de'>k</a>\n";
+        //}
         
     }
 }
 
 //Kei ahnig wie das Funktioniert pls help
-<HTMl>
-<Body>
-
-
-
-</HTMl>
-
 
 
 
