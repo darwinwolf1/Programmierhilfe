@@ -11,13 +11,14 @@ function read(){ //Funktioniert
 While(true){
     global $array;
     read();
-    $filter = readline("Suchmaschiene: ");
+    $filter = readline("\nSuchmaschiene: ");
     foreach($array as $asarray){
         $Position = strpos("$asarray[0]", "$filter"); 
-        if($Position = 0){
+        if($Position !== false){
         print("$asarray[0]\n");
 
         }
+        
         //else {
             //print("No Results found\n");
             //print "Download the .json array/cheatsheet: <a href='http://www.google.de'>k</a>\n";
@@ -27,8 +28,6 @@ While(true){
 }
 
 //Kei ahnig wie das Funktioniert pls help
-
-
 
 
 
