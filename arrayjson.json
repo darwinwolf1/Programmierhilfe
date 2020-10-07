@@ -12,7 +12,7 @@
 ["json_encode: macht dei .json Datei zu einem Arrray und somit wieder gut lesbar"],
 ["json_decode: macht den Array zu einer .json Datei"],
 ["Schleifen: While(True){   }\n foreach($Array as $Variabel)"],
-["sprintf(STRING):	Gibt einen formatierten String zurück"],
+["sprintf(STRING): Gibt einen formatierten String zurück"],
 ["printf(STRING):	Gibt einen formatierten String aus"],
 ["readline(string): Holt eine Benutzerangabe ein"],
 ["$ erstellt eine neue Variable"],
