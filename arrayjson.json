@@ -92,7 +92,7 @@
 ["vsprintf: Gibt einen formatierten String zurück"],
 ["wordwrap: Bricht einen String nach einer bestimmten Anzahl Zeichen um"],
 ["rtrim Alias:chop: Entfernt Leerraum (oder andere Zeichen) vom Ende eines Strings"],
-["array_intersect:	Ermittelt die Schnittmenge von Arrays"],
+["array_intersect: Ermittelt die Schnittmenge von Arrays"],
 ["array_keys: Liefert alle Schlüssel oder eine Teilmenge aller Schlüssel eines Arrays"],
 ["array_sum: Liefert die Summe der Werte in einem Array"],
 ["end: Positioniert den internen Zeiger eines Arrays auf dessen letztes Element"],
