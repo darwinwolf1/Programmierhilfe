@@ -98,7 +98,7 @@
 ["end: Positioniert den internen Zeiger eines Arrays auf dessen letztes Element"],
 ["key: Liefert einen Schlüssel eines Arrays"],
 ["ksort: Sortiert ein Array nach Schlüsseln"],
-[""],
+["lcfirst: Wandelt den ersten Buchstaben eines Strings in einen Kleinbuchstaben um"],
 [""],
 [""],
 [""],
