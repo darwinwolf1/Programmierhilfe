@@ -15,3 +15,4 @@ Robin Löwenstein
 Darwin Wolf  
 Fabio Mannoni
 
+![Logo-Querformat](https://user-images.githubusercontent.com/785565/95568857-0b9f7780-0a25-11eb-8dc9-f2e942307fd3.png)
