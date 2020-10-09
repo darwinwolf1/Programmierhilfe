@@ -10,10 +10,10 @@ Für dieses Projekt mussten wir in vier verschiedenen Programmierspachen reden.
 HTML, Java, PHP und CSS.
 
 ## Teammitglieder
-Robin Giezen
-Robin Löwenstein
-Darwin Wolf
-Fabio Mannoni
+Robin Giezen  
+Robin Löwenstein  
+Darwin Wolf  
+Fabio Mannoni  
 
 
 
