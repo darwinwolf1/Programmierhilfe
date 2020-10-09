@@ -15,5 +15,6 @@ Robin Löwenstein
 Darwin Wolf  
 Fabio Mannoni  
 
+![Alt-Text](Logo_Hochformat.png)
 
 
