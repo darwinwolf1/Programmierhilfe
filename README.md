@@ -13,8 +13,7 @@ HTML, Java, PHP und CSS.
 Robin Giezen  
 Robin Löwenstein  
 Darwin Wolf  
-Fabio Mannoni  
-
-![Alt-Text](Logo_Hochformat.png)
+Fabio Mannoni
 
 
+[<img src="https://ibb.co/LYxDJ6m/Logo_Querformat>](https://ibb.co/LYxDJ6m)
