@@ -16,17 +16,18 @@
     <ul id='list'> 
         <p>
             <?php
-                $url = "https://www.php.net/manual-lookup.php?pattern=output&scope=quickref";
+                $base_url = "https://www.php.net/manual/de/";
+                $url = $base_url . "langref.php";
                 $html = file_get_contents($url);
-                $html = substr($html,stripos($html,'<!-- result list start -->')+6);
-                $html = substr($html,0,strripos($html,'<!-- result list end -->'));
-                
+                $html = substr($html,stripos($html,'<div id="langref" class="book">'));
+                $html = substr($html,0,strripos($html, '<section id="usernotes">'));
+                //
                 // replace dd/dt with li and class for search
                 // <dd> or <dt>        <a href='/manual/en/
                 // <li class="commands"><a href="http://www.php.net/manual/de
-                $html = str_replace("dd","li class=\"commands\"", $html);
-                $html = str_replace("dt","li class=\"commands\"", $html);
-                $html = preg_replace("/(d?)(.*)manual(?)){2}\w}(?)/", "li class=\"commands\"><a target=\"_blank\" href=\"https://www.php.net/manual/de/", $html);
+                $html = str_replace("li",'li class="commands"', $html);
+                //$html = str_replace("dd",'li class="commands"', $html);
+                $html = str_replace('a href="', 'a target="_blank" href="' . $base_url, $html);
                 echo $html;
             ?>
         </p> 
