@@ -15,4 +15,3 @@ Robin Löwenstein
 Darwin Wolf  
 Fabio Mannoni
 
-[<img src="https://ibb.co/LYxDJ6m/Logo_Querformat>](https://ibb.co/LYxDJ6m)
